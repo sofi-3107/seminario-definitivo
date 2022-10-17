@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.seminario.FichaMecanicaController">
+   <content>
+      <BorderPane prefHeight="863.0" prefWidth="894.0" styleClass="second-container" stylesheets="@../com/mycompany/seminario/estilos.css">
+         <right>
+            <AnchorPane prefHeight="659.0" prefWidth="162.0" styleClass="tabs-background" stylesheets="@estilos.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="agregarInsumoBT" layoutX="40.0" layoutY="192.0" mnemonicParsing="false" onAction="#openAddInsumoWindow" prefHeight="31.0" prefWidth="155.0" styleClass="second-container" stylesheets="@../com/mycompany/seminario/estilos.css" text="Agregar Insumo">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="21.0" layoutY="479.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="191.0" styleClass="second-container" stylesheets="@../com/mycompany/seminario/estilos.css" text="Constancia de Conformidad">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </AnchorPane>
+         </right>
+         <center>
+            <AnchorPane prefHeight="659.0" prefWidth="744.0" styleClass="second-container" stylesheets="@estilos.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="57.0" layoutY="43.0" text="Fecha:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="51.0" layoutY="73.0" text="Apellido Cliente">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="51.0" layoutY="113.0" text="Nombre Cliente">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="51.0" layoutY="150.0" text="Marca Automotor">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="51.0" layoutY="189.0" text="Modelo Automotor">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="52.0" layoutY="225.0" text="Taller Asignado">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextArea layoutX="165.0" layoutY="302.0" prefHeight="90.0" prefWidth="458.0" />
+                  <Label layoutX="46.0" layoutY="336.0" text="Problema">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="413.0" text="Trabajo Realizado">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="52.0" layoutY="260.0" text="Mecánico">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextArea layoutX="164.0" layoutY="402.0" prefHeight="87.0" prefWidth="460.0" />
+                  <TextField editable="false" layoutX="178.0" layoutY="40.0" />
+                  <TextField editable="false" layoutX="177.0" layoutY="71.0" prefHeight="25.0" prefWidth="387.0" />
+                  <TextField editable="false" layoutX="178.0" layoutY="111.0" prefHeight="25.0" prefWidth="385.0" />
+                  <TextField editable="false" layoutX="178.0" layoutY="148.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField editable="false" layoutX="178.0" layoutY="187.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField editable="false" layoutX="178.0" layoutY="223.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField editable="false" layoutX="178.0" layoutY="258.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField editable="false" layoutX="489.0" layoutY="28.0" />
+                  <Label layoutX="418.0" layoutY="29.0" text="Ficha Nº:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="saveFichaMecanicaBT" layoutX="35.0" layoutY="606.0" mnemonicParsing="false" onAction="#saveFichaMecanica" prefHeight="44.0" prefWidth="181.0" styleClass="tabs-background" text="Guardar Ficha" textFill="WHITE" AnchorPane.bottomAnchor="23.0" AnchorPane.topAnchor="606.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="430.0" layoutY="607.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="170.0" styleClass="tabs-background" text="Editar Ficha" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <CheckBox fx:id="confClienteCheckBox" layoutX="31.0" layoutY="526.0" mnemonicParsing="false" onAction="#hideTextArea" text="Cliente disconforme" />
+                  <TextArea fx:id="disconformidadTxA" layoutX="164.0" layoutY="499.0" prefHeight="87.0" prefWidth="460.0" />
+                  <TextField layoutX="516.0" layoutY="182.0" prefHeight="36.0" prefWidth="83.0" />
+                  <Label layoutX="405.0" layoutY="189.0" text="Mano de Obra $:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="402.0" layoutY="151.0" text="Tiempo Empleado">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="523.0" layoutY="143.0" prefHeight="34.0" prefWidth="69.0" promptText="minutos">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="405.0" layoutY="235.0" text="Total Insumos $">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField editable="false" layoutX="515.0" layoutY="227.0" prefHeight="36.0" prefWidth="85.0" />
+               </children>
+               <opaqueInsets>
+                  <Insets right="15.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </AnchorPane>
+         </center>
+         <bottom>
+            <AnchorPane stylesheets="@estilos.css" BorderPane.alignment="CENTER">
+               <children>
+                  <TableView prefHeight="172.0" prefWidth="663.0" stylesheets="@estilos.css">
+                    <columns>
+                      <TableColumn prefWidth="307.0" text="Insumo" />
+                      <TableColumn minWidth="0.0" prefWidth="77.0" text="Cantidad" />
+                        <TableColumn minWidth="0.0" prefWidth="127.0" text="Costo Total Insumos" />
+                    </columns>
+                     <styleClass>
+                        <String fx:value="column-header-background" />
+                        <String fx:value="filler" />
+                        <String fx:value="column-header" />
+                        <String fx:value="filler" />
+                     </styleClass>
+                  </TableView>
+               </children>
+               <styleClass>
+                  <String fx:value="ta" />
+                  <String fx:value="tabs-background" />
+               </styleClass>
+            </AnchorPane>
+         </bottom>
+         <top>
+            <Pane prefHeight="61.0" prefWidth="894.0" styleClass="tabs-background" stylesheets="@estilos.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="357.0" layoutY="19.0" prefHeight="45.0" prefWidth="150.0" text="Ficha Mecánica" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </top>
+      </BorderPane>
+   </content>
+</ScrollPane>

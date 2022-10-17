@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="640.0" prefWidth="1293.0" styleClass="second-container" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.seminario.DatosClienteAccordionController">
+   <children>
+      <DatePicker layoutX="94.0" layoutY="40.0" />
+      <Label layoutX="38.0" layoutY="42.0" text="Fecha" textFill="#0d0d0d">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <SplitPane dividerPositions="0.7744063324538258" layoutX="-14.0" layoutY="98.0" prefHeight="550.0" prefWidth="1312.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="548.0" prefWidth="979.0">
+               <children>
+                  <TableView layoutX="18.0" layoutY="2.0" prefHeight="544.0" prefWidth="994.0">
+                     <columns>
+                        <TableColumn prefWidth="113.0" text="Nº Turno" />
+                        <TableColumn prefWidth="214.0" text="Cliente" />
+                        <TableColumn prefWidth="307.0" text="Especialidad Mecánica" />
+                        <TableColumn minWidth="0.0" prefWidth="136.0" text="Hora" />
+                        <TableColumn prefWidth="221.0" text="Asistencia" />
+                     </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="548.0" prefWidth="267.0" styleClass="tabs-background">
+               <children>
+                  <Button fx:id="loadDetalleTurnoBT" layoutX="68.0" layoutY="68.0" mnemonicParsing="false" onAction="#loadDetalleTurnoWindow" prefHeight="43.0" prefWidth="163.0" stylesheets="@../../../../../../../mavenproject1/src/main/resources/com/seminario/mavenproject1/estilos.css" text="Ver Detalle Turno" textFill="#1f13bf">
+                     <styleClass>
+                        <String fx:value="second-container" />
+                        <String fx:value="third-color" />
+                     </styleClass>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="erFichaMecanicaBT" layoutX="65.0" layoutY="169.0" mnemonicParsing="false" onAction="#loadFichaMecanicaWindow" prefHeight="44.0" prefWidth="169.0" stylesheets="@../../../../../../../mavenproject1/src/main/resources/com/seminario/mavenproject1/estilos.css" text="Ver Ficha Mecánica" textFill="#1f13bf">
+                     <styleClass>
+                        <String fx:value="second-container" />
+                        <String fx:value="third-color" />
+                     </styleClass>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="44.0" layoutY="26.0" text="Confirme asistencia aquí:" textFill="WHITE">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

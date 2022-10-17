@@ -1,0 +1,80 @@
+.tabs-background{
+    -fx-background-color: #0979b0;
+    -fx-width:100%;
+}
+
+.second-container{
+    -fx-background-color: #7cdaf9;
+}
+
+.third-color{
+    -fx-background-color:#b6ffff;
+}
+
+.table-view{
+    -fx-background-color: #ffffff;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #0979b0;
+
+}
+.table-view .column-header .label{
+    -fx-text-fill: white;
+}
+
+
+.table-cell {
+    -fx-text-fill:black;
+}
+
+.tab{
+    -fx-background-color: #0979b0;
+    -fx-text-fill: white;
+}
+.tab-label{
+    -fx-text-fill: white;
+
+}
+.tab:hover{
+    -fx-background-color:#7cdaf9;
+
+}
+.tab-label:hover{
+    -fx-text-fill: black;
+
+}
+
+.tab:selected{
+    -fx-background-color:#7cdaf9;
+}
+
+
+.titled-pane > .title > .arrow-button .arrow {
+    -fx-background-color:blue;
+}
+
+.titled-pane > .title{
+    -fx-background-color: #c8dfea;
+}
+/*
+.dialog-pane {
+    -fx-background-color: black;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: white;
+}
+
+
+
+.dialog-pane:header .header-panel .label {
+    -fx-font-style: italic;
+    -fx-font-size: 2em;
+}
+.dialog-pane:header .header-panel {
+    -fx-background-color:#0979b0;
+}
+*/

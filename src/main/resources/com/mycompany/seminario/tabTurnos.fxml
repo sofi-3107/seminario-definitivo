@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="856.0" prefWidth="1293.0" style="-hx-width: 100;" styleClass="tabs-background" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.seminario.TabTurnosController">
+    <children>
+        <ComboBox fx:id="especialidadCB" layoutX="164.0" layoutY="50.0" onAction="#onChangeEspecialidad" prefHeight="25.0" prefWidth="184.0" promptText="Elija la especialidad" style="-fx-border-style: solid 2 px blue;" />
+        <Label layoutX="38.0" layoutY="50.0" style="-fx-font-style: white;" styleClass="text-whhite-bold" stylesheets="@estilos.css" text="Especialidad: " textFill="#fff1f1">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="turnoComboBox" layoutX="966.0" layoutY="50.0" prefHeight="25.0" prefWidth="201.0" />
+        <Label layoutX="909.0" layoutY="50.0" styleClass="text-whhite-bold" stylesheets="@estilos.css" text="Turno:" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Accordion layoutY="139.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+            <panes>
+                <TitledPane fx:id="datosClienteTP" animated="false" prefHeight="700.0" prefWidth="1295.0" styleClass="tabs-background" text="Asignar Turno" textFill="#2c2b2b">
+                    <content>
+                        <fx:include fx:id="asignarTurnoAccordion" source="asignarTurnoAccordion.fxml" />
+                    </content>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </TitledPane>
+                <TitledPane animated="false" prefHeight="671.0" prefWidth="1295.0" text="Verificar Turno">
+                    <content>
+                        <fx:include fx:id="datosClientAccordion" source="datosClienteAccordion.fxml" />
+                    </content>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </TitledPane>
+            </panes>
+        </Accordion>
+        <Label layoutX="38.0" layoutY="95.0" styleClass="text-whhite-bold" stylesheets="@estilos.css" text="Mecánico:" textFill="#f5f5f5">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="mecanicoTF" editable="false" layoutX="164.0" layoutY="95.0" prefHeight="26.0" prefWidth="213.0" style="-fx-background-color: #ffffff;" />
+        <DatePicker fx:id="agendarTurnoDP" layoutX="598.0" layoutY="50.0" onAction="#onChangeSelectedDate" />
+    </children>
+</AnchorPane>
