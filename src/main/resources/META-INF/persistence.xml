@@ -6,6 +6,21 @@
     <class>com.mycompany.seminario.models.Empleado</class>
     <class>com.mycompany.seminario.models.Taller</class>
     <class>com.mycompany.seminario.models.RolEmpleado</class>
+    <class>com.mycompany.seminario.hibernate.models.MarcaAutomotor</class>
+    <class>com.mycompany.seminario.hibernate.models.ModuloHorario</class>
+    <class>com.mycompany.seminario.hibernate.models.FichaMecanica</class>
+    <class>com.mycompany.seminario.hibernate.models.ModeloAutomotor</class>
+    <class>com.mycompany.seminario.hibernate.models.Horario</class>
+    <class>com.mycompany.seminario.hibernate.models.Empleado</class>
+    <class>com.mycompany.seminario.hibernate.models.Taller</class>
+    <class>com.mycompany.seminario.hibernate.models.Turno</class>
+    <class>com.mycompany.seminario.hibernate.models.Cliente</class>
+    <class>com.mycompany.seminario.hibernate.models.TipoDocumento</class>
+    <class>com.mycompany.seminario.hibernate.models.Insumo</class>
+    <class>com.mycompany.seminario.hibernate.models.Automotor</class>
+    <class>com.mycompany.seminario.hibernate.models.Contacto</class>
+    <class>com.mycompany.seminario.hibernate.models.Aseguradora</class>
+    <class>com.mycompany.seminario.hibernate.models.RolEmpleado</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/seminario-programacion?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
