@@ -30,8 +30,7 @@ import javax.persistence.Table;
 @NamedQueries({
     @NamedQuery(name = "Cliente.findAll", query = "SELECT c FROM Cliente c"),
     @NamedQuery(name = "Cliente.findById", query = "SELECT c FROM Cliente c WHERE c.id = :id"),
-    @NamedQuery(name = "Cliente.findByNombre", query = "SELECT c FROM Cliente c WHERE c.nombre = :nombre"),
-    @NamedQuery(name = "Cliente.findByApellido", query = "SELECT c FROM Cliente c WHERE c.apellido = :apellido"),
+    @NamedQuery(name = "Cliente.findByTipoAndNumDoc", query = "SELECT c FROM Cliente c WHERE c.tipoDocumento=:tipoDocumento AND c.numDocumento=:numDocuemento"),
     @NamedQuery(name = "Cliente.findByNumDocumento", query = "SELECT c FROM Cliente c WHERE c.numDocumento = :numDocumento")})
 public class Cliente implements Serializable {
 
