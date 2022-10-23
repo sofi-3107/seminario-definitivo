@@ -1,5 +1,8 @@
 package com.mycompany.seminario;
 
+import com.mycompany.seminario.hibernate.dao.ClienteJpaController;
+import com.mycompany.seminario.hibernate.dao.EntityManagerProvider;
+import com.mycompany.seminario.hibernate.models.Cliente;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,10 +20,10 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("primary"), 1300  , 700);
+        scene = new Scene(loadFXML("primary"), 1300, 700);
         stage.setScene(scene);
         stage.setTitle("SuperCharger");
-       
+
         stage.show();
     }
 
@@ -34,7 +37,9 @@ public class App extends Application {
     }
 
     public static void main(String[] args) {
-               
+        ClienteJpaController instance = new ClienteJpaController(EntityManagerProvider.getEntityManagerFactory());
+        Cliente result = instance.findByTipoAndNumeroDocumento("34066052", 1);
+        System.out.println("result" + result.getApellido());
         launch();
 
     }

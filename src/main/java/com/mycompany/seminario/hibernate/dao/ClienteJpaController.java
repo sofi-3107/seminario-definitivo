@@ -14,9 +14,9 @@ import java.util.List;
 import com.mycompany.seminario.hibernate.models.Automotor;
 import com.mycompany.seminario.hibernate.models.Cliente;
 import com.mycompany.seminario.hibernate.models.FichaMecanica;
-import java.util.Map;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
+import javax.persistence.TypedQuery;
 
 /**
  *
@@ -33,10 +33,19 @@ public class ClienteJpaController implements Serializable {
         return emf.createEntityManager();
     }
 
-    public Cliente findByTipoAndNumeroDocumento(int id, String num, int tipoDoc) {
+    public Cliente findByTipoAndNumeroDocumento( String num, int tipoDoc) {
         EntityManager em = getEntityManager();
-        em.getTransaction().begin();
-        return em.find(Cliente.class, id,Map.of("tipoDocumento",tipoDoc,"numeroDocumento",num));
+        Cliente c=new Cliente();
+        try {
+            em.getTransaction().begin();
+            TypedQuery<Cliente> query = em.createNamedQuery("Cliente.findByTipoAndNumDoc", Cliente.class);
+            query.setParameter("numero", num);
+            query.setParameter("tipo", tipoDoc);
+            c=query.getSingleResult();
+        } finally {
+            em.close();
+        }
+        return c;
     }
 
     public void create(Cliente cliente) {

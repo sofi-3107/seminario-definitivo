@@ -1,11 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.seminario.hibernate.models;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Objects;
 import javax.persistence.Basic;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -30,7 +28,7 @@ import javax.persistence.Table;
 @NamedQueries({
     @NamedQuery(name = "Cliente.findAll", query = "SELECT c FROM Cliente c"),
     @NamedQuery(name = "Cliente.findById", query = "SELECT c FROM Cliente c WHERE c.id = :id"),
-    @NamedQuery(name = "Cliente.findByTipoAndNumDoc", query = "SELECT c FROM Cliente c WHERE c.tipoDocumento=:tipoDocumento AND c.numDocumento=:numDocuemento"),
+    @NamedQuery(name = "Cliente.findByTipoAndNumDoc", query = "SELECT c FROM Cliente AS c WHERE c.tipoDocumento =: tipo AND c.numDocumento =: numero"),
     @NamedQuery(name = "Cliente.findByNumDocumento", query = "SELECT c FROM Cliente c WHERE c.numDocumento = :numDocumento")})
 public class Cliente implements Serializable {
 
@@ -145,16 +143,15 @@ public class Cliente implements Serializable {
         this.fichaMecanicaList = fichaMecanicaList;
     }
 
-    @Override
+   @Override
     public int hashCode() {
-        int hash = 0;
-        hash += (id != null ? id.hashCode() : 0);
-        return hash;
+        
+        return Objects.hash(this.numDocumento);
     }
 
     @Override
     public boolean equals(Object object) {
-        // TODO: Warning - this method won't work in the case the id fields are not set
+      
         if (!(object instanceof Cliente)) {
             return false;
         }
