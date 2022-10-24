@@ -25,6 +25,7 @@ com\mycompany\seminario\models\AseguradoraModel.class
 com\mycompany\seminario\commandpattern\AnotherReportingToolImpl.class
 com\mycompany\seminario\daoimpl\AutomotorDaoImpl.class
 com\mycompany\seminario\EasyAlertMaker.class
+com\mycompany\seminario\hibernate\dao\SessionFactoryProvider.class
 com\mycompany\seminario\daoimpl\EspecialidadDaoImpl.class
 com\mycompany\seminario\hibernate\models\Taller.class
 com\mycompany\seminario\controllers\TipoDocumentoController.class

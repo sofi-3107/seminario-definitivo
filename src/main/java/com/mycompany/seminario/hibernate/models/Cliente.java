@@ -28,7 +28,7 @@ import javax.persistence.Table;
 @NamedQueries({
     @NamedQuery(name = "Cliente.findAll", query = "SELECT c FROM Cliente c"),
     @NamedQuery(name = "Cliente.findById", query = "SELECT c FROM Cliente c WHERE c.id = :id"),
-    @NamedQuery(name = "Cliente.findByTipoAndNumDoc", query = "SELECT c FROM Cliente AS c WHERE c.tipoDocumento =: tipo AND c.numDocumento =: numero"),
+    @NamedQuery(name = "Cliente.findByTipoAndNumDoc", query = "SELECT c FROM Cliente AS c LEFT JOIN Automotor AS a ON a.dueño=c.id WHERE c.tipoDocumento =: tipo AND c.numDocumento =: numero"),
     @NamedQuery(name = "Cliente.findByNumDocumento", query = "SELECT c FROM Cliente c WHERE c.numDocumento = :numDocumento")})
 public class Cliente implements Serializable {
 
@@ -54,7 +54,7 @@ public class Cliente implements Serializable {
     @OneToMany(mappedBy = "cliente")
     private List<Turno> turnos;
     
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "due\u00f1o")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "dueño")
     private List<Automotor> automotorList;
     
     @JoinColumn(name = "tipo_documento", referencedColumnName = "id")
