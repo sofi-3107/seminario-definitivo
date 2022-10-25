@@ -1,77 +1,77 @@
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\database\CommonQueries.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Turno.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\ClienteJpaController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\DatosClienteAccordionController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\FichaMecanicaModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\ClienteDaoImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\MarcaAutomotorModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\MarcaAutomotor.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\EmpleadoModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\EspecialidadDaoImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\MecanicoDaoImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\RolEmpleado.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\database\DBConnectionProvider.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\exceptions\PreexistingEntityException.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\App.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\AgregarInsumoController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Aseguradora.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\AsignarTurnoAccordionController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\MecanicoModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Automotor.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\EncargadoTallerModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\commandpattern\PrintReportInterface.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\AseguradoraController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\factory\DaoFactory.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\commandpattern\JasperReportReceiver.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\TabInformesController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\TipoDocumentoController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\AutomotorModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\ClienteModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\TipoDocumentoModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\ModeloAutomotorDaoImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\TabTurnosController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\FichaMecanicaController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\FichaMecanicaController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\AgregarClienteController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\database\DaoInterface.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\EntityManagerProvider.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\ModeloAutomotorModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\TurnoDaoImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\ConfirmarTurnoController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\FichaMecanica.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\ClienteController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\MarcaAutoController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\PersonaModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Contacto.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\TurnoModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\TipoDocumento.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\FichaMecanicaDaoImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\ModeloAutomotor.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\commandpattern\AnotherReportingToolImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\ModuloHorario.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\MarcaAutomotorDaoImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\TipoDocumentoDaoImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\AseguradoraDaoImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Empleado.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Insumo.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\ModeloAutoController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Horario.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\AutomotorController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\ContactoJpaController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Taller.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\TipoDocumentoJpaController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\EspecialidadModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Cliente.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\commandpattern\JasperReportImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\InsumoModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\MecanicoController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\AutomotorDaoImpl.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\exceptions\NonexistentEntityException.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\EspecialidadController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\TurnoController.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\FastClearControls.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\EasyAlertMaker.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\commandpattern\PrintReportInvoker.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\SessionFactoryProvider.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\models\AseguradoraModel.java
-D:\Netbeans Projects\seminario-definitivo\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\exceptions\IllegalOrphanException.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\EntityManagerProvider.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\ClienteController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\AutomotorModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\EncargadoTallerModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\TabInformesController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\MecanicoModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\EspecialidadController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Contacto.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\ModeloAutomotorDaoImpl.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\TurnoController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\MarcaAutomotorModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\TipoDocumento.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\ConfirmarTurnoController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\TurnoModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\RolEmpleado.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\EasyAlertMaker.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\exceptions\NonexistentEntityException.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\ModeloAutomotorModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\exceptions\PreexistingEntityException.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Turno.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\ContactoJpaController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\ModeloAutomotor.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\AgregarClienteController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\EmpleadoModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\TipoDocumentoModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\TipoDocumentoJpaController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\MarcaAutoController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\ClienteDaoImpl.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\commandpattern\JasperReportReceiver.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\ModeloAutoController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\ModuloHorario.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\database\DaoInterface.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\SessionFactoryProvider.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\exceptions\IllegalOrphanException.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\commandpattern\PrintReportInvoker.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Empleado.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\ClienteModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\commandpattern\AnotherReportingToolImpl.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\FastClearControls.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\AgregarInsumoController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\commandpattern\JasperReportImpl.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\database\DBConnectionProvider.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\TabTurnosController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\App.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Taller.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\AutomotorController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\AseguradoraDaoImpl.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\AseguradoraController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Cliente.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\InsumoModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\FichaMecanicaController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\MecanicoDaoImpl.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Aseguradora.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\MarcaAutomotor.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Insumo.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\FichaMecanicaController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\FichaMecanicaModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\factory\DaoFactory.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\EspecialidadDaoImpl.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\MecanicoController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Automotor.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\FichaMecanica.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\AsignarTurnoAccordionController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\controllers\TipoDocumentoController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\AutomotorDaoImpl.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\database\CommonQueries.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\TipoDocumentoDaoImpl.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\dao\ClienteJpaController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\commandpattern\PrintReportInterface.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\EspecialidadModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\hibernate\models\Horario.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\PersonaModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\FichaMecanicaDaoImpl.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\models\AseguradoraModel.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\TurnoDaoImpl.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\DatosClienteAccordionController.java
+E:\NetbeansProjects\seminario-definitivo\src\main\java\com\mycompany\seminario\daoimpl\MarcaAutomotorDaoImpl.java
