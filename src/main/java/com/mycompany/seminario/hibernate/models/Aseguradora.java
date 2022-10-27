@@ -32,8 +32,10 @@ public class Aseguradora implements Serializable {
     @Basic(optional = false)
     @Column(name = "id")
     private Integer id;
+    
     @Column(name = "nombre")
     private String nombre;
+    
     @OneToMany(mappedBy = "aseguradora")
     private List<Automotor> automotorList;
 
