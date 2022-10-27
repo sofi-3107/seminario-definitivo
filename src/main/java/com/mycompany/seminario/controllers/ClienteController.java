@@ -1,8 +1,8 @@
 
 package com.mycompany.seminario.controllers;
 
-import com.mycompany.seminario.hibernate.dao.ClienteJpaController;
-import com.mycompany.seminario.hibernate.dao.EntityManagerProvider;
+import com.mycompany.seminario.hibernate.controllers.ClienteJpaController;
+import com.mycompany.seminario.hibernate.controllers.EntityManagerProvider;
 import com.mycompany.seminario.hibernate.models.Cliente;
 import com.mycompany.seminario.models.ClienteModel;
 

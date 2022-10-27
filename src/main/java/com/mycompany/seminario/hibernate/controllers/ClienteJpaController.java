@@ -1,4 +1,4 @@
-package com.mycompany.seminario.hibernate.dao;
+package com.mycompany.seminario.hibernate.controllers;
 
 import com.mycompany.seminario.hibernate.dao.exceptions.IllegalOrphanException;
 import com.mycompany.seminario.hibernate.dao.exceptions.NonexistentEntityException;
@@ -337,17 +337,6 @@ public class ClienteJpaController implements Serializable {
         }
     }
 
-    public int getClienteCount() {
-        EntityManager em = getEntityManager();
-        try {
-            CriteriaQuery cq = em.getCriteriaBuilder().createQuery();
-            Root<Cliente> rt = cq.from(Cliente.class);
-            cq.select(em.getCriteriaBuilder().count(rt));
-            Query q = em.createQuery(cq);
-            return ((Long) q.getSingleResult()).intValue();
-        } finally {
-            em.close();
-        }
-    }
+
 
 }

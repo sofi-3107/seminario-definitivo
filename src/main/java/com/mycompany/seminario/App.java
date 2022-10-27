@@ -1,7 +1,7 @@
 package com.mycompany.seminario;
 
-import com.mycompany.seminario.hibernate.dao.ClienteJpaController;
-import com.mycompany.seminario.hibernate.dao.EntityManagerProvider;
+import com.mycompany.seminario.hibernate.controllers.ClienteJpaController;
+import com.mycompany.seminario.hibernate.controllers.EntityManagerProvider;
 import com.mycompany.seminario.hibernate.models.Cliente;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

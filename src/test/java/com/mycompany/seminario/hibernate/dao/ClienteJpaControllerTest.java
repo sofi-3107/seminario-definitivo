@@ -1,5 +1,8 @@
 package com.mycompany.seminario.hibernate.dao;
 
+import com.mycompany.seminario.hibernate.controllers.ClienteJpaController;
+import com.mycompany.seminario.hibernate.controllers.TipoDocumentoJpaController;
+import com.mycompany.seminario.hibernate.controllers.EntityManagerProvider;
 import com.mycompany.seminario.hibernate.models.Cliente;
 import com.mycompany.seminario.hibernate.models.TipoDocumento;
 import static org.junit.Assert.assertEquals;

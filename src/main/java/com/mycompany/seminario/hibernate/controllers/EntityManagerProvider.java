@@ -1,4 +1,4 @@
-package com.mycompany.seminario.hibernate.dao;
+package com.mycompany.seminario.hibernate.controllers;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
