@@ -11,7 +11,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityNotFoundException;
 import javax.persistence.Query;
 import javax.persistence.criteria.CriteriaQuery;
-import org.hibernate.SessionFactory;
 
 /**
  *
@@ -19,7 +18,7 @@ import org.hibernate.SessionFactory;
  */
 public class GenericDaoImpl<T, ID extends Serializable> implements GenericDao<T, ID> {
 
-    SessionFactory sessionFactory;
+   
     EntityManagerFactory emf = EntityManagerProvider.getEntityManagerFactory();
 
     public EntityManager getEntityManager() {
