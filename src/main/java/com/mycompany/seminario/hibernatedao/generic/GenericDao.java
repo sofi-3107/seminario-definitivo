@@ -1,4 +1,4 @@
-package com.mycompany.seminario.hibernatedao;
+package com.mycompany.seminario.hibernatedao.generic;
 
 import java.io.Serializable;
 import java.util.List;

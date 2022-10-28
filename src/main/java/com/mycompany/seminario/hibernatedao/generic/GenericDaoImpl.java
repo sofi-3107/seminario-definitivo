@@ -1,4 +1,4 @@
-package com.mycompany.seminario.hibernatedao;
+package com.mycompany.seminario.hibernatedao.generic;
 
 import com.mycompany.seminario.hibernate.controllers.EntityManagerProvider;
 import com.mycompany.seminario.hibernate.dao.exceptions.IllegalOrphanException;

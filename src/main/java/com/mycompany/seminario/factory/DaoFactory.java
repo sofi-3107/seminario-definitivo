@@ -11,6 +11,12 @@ import com.mycompany.seminario.daoimpl.ModeloAutomotorDaoImpl;
 import com.mycompany.seminario.daoimpl.TipoDocumentoDaoImpl;
 import com.mycompany.seminario.daoimpl.TurnoDaoImpl;
 import com.mycompany.seminario.database.DaoInterface;
+import com.mycompany.seminario.hibernatedao.generic.GenericDao;
+import com.mycompany.seminario.hibernatedao.implementations.AutomotorDaoImplHibernate;
+import com.mycompany.seminario.hibernatedao.implementations.ClienteDaoImplHibernate;
+import com.mycompany.seminario.hibernatedao.implementations.EmpleadoDaoImplHibernate;
+import com.mycompany.seminario.hibernatedao.implementations.TallerDaoImplHibernate;
+import com.mycompany.seminario.hibernatedao.implementations.TipoDocumentoDaoImplHibernate;
 
 /**
  *
@@ -39,24 +45,48 @@ public class DaoFactory {
                 instance = new TipoDocumentoDaoImpl();
                 break;
             case "marca":
-                instance= new MarcaAutomotorDaoImpl();
+                instance = new MarcaAutomotorDaoImpl();
                 break;
             case "modelo":
-                instance=new ModeloAutomotorDaoImpl();
+                instance = new ModeloAutomotorDaoImpl();
                 break;
             case "aseguradora":
-                instance=new AseguradoraDaoImpl();
+                instance = new AseguradoraDaoImpl();
                 break;
             case "especialidad":
-                instance=new EspecialidadDaoImpl();
+                instance = new EspecialidadDaoImpl();
                 break;
             case "mecanico":
-                instance=new MecanicoDaoImpl();
+                instance = new MecanicoDaoImpl();
                 break;
         }
 
         return instance;
 
+    }
+
+    public static GenericDao getHibernateDao(String entityName) {
+        GenericDao hibernateInstance = null;
+        
+        switch(entityName){
+            case "cliente":
+                hibernateInstance=new ClienteDaoImplHibernate();
+                break;
+            case "taller":
+                hibernateInstance=new TallerDaoImplHibernate();
+                break;
+            case "automotor":
+                hibernateInstance=new AutomotorDaoImplHibernate();
+                break;
+            case "tipodocumento":
+                hibernateInstance=new TipoDocumentoDaoImplHibernate();
+                break;
+            case "empleado":
+                hibernateInstance=new EmpleadoDaoImplHibernate();
+                break;
+        }
+        
+        return hibernateInstance;
     }
 
 }

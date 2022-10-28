@@ -1,5 +1,5 @@
 
-package com.mycompany.seminario.hibernatedao;
+package com.mycompany.seminario.hibernatedao.generic;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
