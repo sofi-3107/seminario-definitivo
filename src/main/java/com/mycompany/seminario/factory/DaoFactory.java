@@ -12,6 +12,7 @@ import com.mycompany.seminario.daoimpl.TipoDocumentoDaoImpl;
 import com.mycompany.seminario.daoimpl.TurnoDaoImpl;
 import com.mycompany.seminario.database.DaoInterface;
 import com.mycompany.seminario.hibernatedao.generic.GenericDao;
+import com.mycompany.seminario.hibernatedao.implementations.AseguradoraDaoImplHibernate;
 import com.mycompany.seminario.hibernatedao.implementations.AutomotorDaoImplHibernate;
 import com.mycompany.seminario.hibernatedao.implementations.ClienteDaoImplHibernate;
 import com.mycompany.seminario.hibernatedao.implementations.EmpleadoDaoImplHibernate;
@@ -83,6 +84,9 @@ public class DaoFactory {
                 break;
             case "empleado":
                 hibernateInstance=new EmpleadoDaoImplHibernate();
+                break;
+            case "aseguradora":
+                hibernateInstance=new AseguradoraDaoImplHibernate();
                 break;
         }
         
