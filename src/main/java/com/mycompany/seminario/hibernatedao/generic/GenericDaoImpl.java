@@ -1,6 +1,5 @@
 package com.mycompany.seminario.hibernatedao.generic;
 
-import com.mycompany.seminario.hibernate.controllers.EntityManagerProvider;
 import com.mycompany.seminario.hibernate.dao.exceptions.IllegalOrphanException;
 import com.mycompany.seminario.hibernate.dao.exceptions.NonexistentEntityException;
 import java.io.Serializable;

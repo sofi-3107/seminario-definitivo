@@ -1,4 +1,5 @@
 com\mycompany\seminario\hibernate\dao\exceptions\PreexistingEntityException.class
+com\mycompany\seminario\hibernatedao\implementations\ModeloAutomotorDaoImplHibernate.class
 com\mycompany\seminario\TabTurnosController.class
 com\mycompany\seminario\controllers\TurnoController.class
 com\mycompany\seminario\controllers\MarcaAutoController.class
@@ -7,9 +8,9 @@ com\mycompany\seminario\commandpattern\JasperReportReceiver.class
 com\mycompany\seminario\hibernate\dao\exceptions\NonexistentEntityException.class
 com\mycompany\seminario\models\EspecialidadModel.class
 com\mycompany\seminario\controllers\ClienteController.class
-com\mycompany\seminario\hibernate\controllers\TipoDocumentoJpaController.class
 com\mycompany\seminario\hibernate\models\Cliente.class
 com\mycompany\seminario\hibernatedao\generic\GenericDao.class
+com\mycompany\seminario\hibernatedao\entityinterfaces\ModeloAutomotorDaoHibernate.class
 com\mycompany\seminario\models\MarcaAutomotorModel.class
 com\mycompany\seminario\models\MecanicoModel.class
 com\mycompany\seminario\models\AseguradoraModel.class
@@ -19,6 +20,7 @@ com\mycompany\seminario\controllers\TipoDocumentoController.class
 com\mycompany\seminario\hibernatedao\implementations\ClienteDaoImplHibernate.class
 com\mycompany\seminario\database\CommonQueries.class
 com\mycompany\seminario\models\AutomotorModel.class
+com\mycompany\seminario\hibernatedao\entityinterfaces\MarcaAutomotorDaoHIbernate.class
 com\mycompany\seminario\daoimpl\TipoDocumentoDaoImpl.class
 com\mycompany\seminario\ConfirmarTurnoController.class
 com\mycompany\seminario\daoimpl\FichaMecanicaDaoImpl.class
@@ -35,8 +37,8 @@ com\mycompany\seminario\hibernate\dao\exceptions\IllegalOrphanException.class
 com\mycompany\seminario\models\TurnoModel.class
 com\mycompany\seminario\models\PersonaModel.class
 com\mycompany\seminario\hibernatedao\entityinterfaces\ContactoDaoHibernate.class
+com\mycompany\seminario\daoimpl\TallerMecanicoDaoImpl.class
 com\mycompany\seminario\models\InsumoModel.class
-com\mycompany\seminario\hibernate\controllers\ClienteJpaController.class
 com\mycompany\seminario\hibernate\models\Horario.class
 com\mycompany\seminario\models\EmpleadoModel.class
 com\mycompany\seminario\AgregarClienteController.class
@@ -47,6 +49,7 @@ com\mycompany\seminario\models\ClienteModel.class
 com\mycompany\seminario\hibernatedao\entityinterfaces\EmpleadoDaoHibernate.class
 com\mycompany\seminario\commandpattern\JasperReportImpl.class
 com\mycompany\seminario\hibernate\models\Turno.class
+com\mycompany\seminario\hibernatedao\implementations\MarcaAutomotorDaoImplHibernate.class
 com\mycompany\seminario\hibernate\models\MarcaAutomotor.class
 com\mycompany\seminario\controllers\AseguradoraController.class
 com\mycompany\seminario\TabInformesController.class
@@ -69,20 +72,19 @@ com\mycompany\seminario\daoimpl\TurnoDaoImpl.class
 com\mycompany\seminario\hibernate\models\TipoDocumento.class
 com\mycompany\seminario\models\ModeloAutomotorModel.class
 com\mycompany\seminario\daoimpl\AseguradoraDaoImpl.class
+com\mycompany\seminario\hibernatedao\generic\SessionFactoryProvider.class
 com\mycompany\seminario\factory\DaoFactory.class
 com\mycompany\seminario\FastClearControls.class
 com\mycompany\seminario\hibernatedao\implementations\AseguradoraDaoImplHibernate.class
-com\mycompany\seminario\hibernate\controllers\ContactoJpaController.class
 com\mycompany\seminario\daoimpl\MarcaAutomotorDaoImpl.class
 com\mycompany\seminario\controllers\EspecialidadController.class
 com\mycompany\seminario\database\DBConnectionProvider.class
 com\mycompany\seminario\daoimpl\ModeloAutomotorDaoImpl.class
-com\mycompany\seminario\hibernate\controllers\SessionFactoryProvider.class
-com\mycompany\seminario\hibernate\controllers\EntityManagerProvider.class
 com\mycompany\seminario\models\TipoDocumentoModel.class
 com\mycompany\seminario\AgregarInsumoController.class
 com\mycompany\seminario\AsignarTurnoAccordionController.class
 com\mycompany\seminario\commandpattern\PrintReportInterface.class
+com\mycompany\seminario\hibernatedao\generic\EntityManagerProvider.class
 com\mycompany\seminario\hibernate\models\ModuloHorario.class
 com\mycompany\seminario\database\DaoInterface.class
 com\mycompany\seminario\daoimpl\ClienteDaoImpl.class

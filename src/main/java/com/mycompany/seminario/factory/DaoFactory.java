@@ -16,6 +16,8 @@ import com.mycompany.seminario.hibernatedao.implementations.AseguradoraDaoImplHi
 import com.mycompany.seminario.hibernatedao.implementations.AutomotorDaoImplHibernate;
 import com.mycompany.seminario.hibernatedao.implementations.ClienteDaoImplHibernate;
 import com.mycompany.seminario.hibernatedao.implementations.EmpleadoDaoImplHibernate;
+import com.mycompany.seminario.hibernatedao.implementations.MarcaAutomotorDaoImplHibernate;
+import com.mycompany.seminario.hibernatedao.implementations.ModeloAutomotorDaoImplHibernate;
 import com.mycompany.seminario.hibernatedao.implementations.TallerDaoImplHibernate;
 import com.mycompany.seminario.hibernatedao.implementations.TipoDocumentoDaoImplHibernate;
 
@@ -87,6 +89,12 @@ public class DaoFactory {
                 break;
             case "aseguradora":
                 hibernateInstance=new AseguradoraDaoImplHibernate();
+                break;
+            case "modeloautomotor":
+                hibernateInstance=new ModeloAutomotorDaoImplHibernate();
+                break;
+            case "marcaautomotor":
+                hibernateInstance=new MarcaAutomotorDaoImplHibernate();
                 break;
         }
         
