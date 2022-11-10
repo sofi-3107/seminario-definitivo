@@ -4,9 +4,7 @@ import com.mycompany.seminario.hibernatedao.entityinterfaces.ClienteDaoHibernate
 import com.mycompany.seminario.hibernate.models.Cliente;
 import com.mycompany.seminario.hibernatedao.generic.GenericDaoImpl;
 import javax.persistence.EntityManager;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Root;
+import javax.persistence.TypedQuery;
 
 /**
  *
@@ -15,15 +13,13 @@ import javax.persistence.criteria.Root;
 public class ClienteDaoImplHibernate extends GenericDaoImpl<Cliente, Integer> implements ClienteDaoHibernate {
 
     @Override
-    public Cliente findByTipoAndNumDocumento() {
+    public Cliente findByTipoAndNumDocumento(int tipo,String doc) {
         EntityManager em = getEntityManager();
-        CriteriaBuilder cb= em.getCriteriaBuilder();
-        CriteriaQuery<Cliente> cq = cb.createQuery(Cliente.class);
-        Root<Cliente> root =cq.from(Cliente.class);
-      
-        
-        
-        return null;
+        TypedQuery<Cliente> query = em.createNamedQuery("Cliente.findByTipoAndNumDoc", Cliente.class);
+        query.setParameter("tipo", tipo);
+        query.setParameter("numero", doc);
+        Cliente c=query.getSingleResult();
+        return c;
     }
 
 }

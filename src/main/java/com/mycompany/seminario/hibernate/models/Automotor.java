@@ -27,6 +27,7 @@ import javax.persistence.Table;
 @NamedQueries({
     @NamedQuery(name = "Automotor.findAll", query = "SELECT a FROM Automotor a"),
     @NamedQuery(name = "Automotor.findById", query = "SELECT a FROM Automotor a WHERE a.id = :id"),
+    @NamedQuery(name="Automotor.findByOwner",query="SELECT a FROM Automotor AS a WHERE a.dueño=: dueño"),
     @NamedQuery(name = "Automotor.findByNumeroPoliza", query = "SELECT a FROM Automotor a WHERE a.numeroPoliza = :numeroPoliza")})
 public class Automotor implements Serializable {
 

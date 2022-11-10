@@ -25,7 +25,7 @@ public class ClienteController {
      public static ClienteModel buscarPorTipoyNumeroDocumento(int tipoDoc,String numero){
         ClienteModel cm=new ClienteModel();
         ClienteDaoHibernate cdh= (ClienteDaoHibernate) DaoFactory.getHibernateDao("cliente");
-        Cliente c=cdh.findByTipoAndNumDocumento();
+        Cliente c=cdh.findByTipoAndNumDocumento(tipoDoc,numero);
         cm.setApellido(c.getApellido());
         cm.setNombre(c.getNombre());
         cm.setId(c.getId());

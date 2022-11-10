@@ -10,7 +10,7 @@ import com.mycompany.seminario.hibernatedao.generic.GenericDao;
  */
 public interface ClienteDaoHibernate extends GenericDao<Cliente,Integer>{
     
-    public Cliente findByTipoAndNumDocumento();
+    public Cliente findByTipoAndNumDocumento(int tipo,String numero);
     
     
 }
