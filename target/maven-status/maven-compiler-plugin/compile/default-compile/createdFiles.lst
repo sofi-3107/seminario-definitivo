@@ -21,10 +21,13 @@ com\mycompany\seminario\hibernatedao\implementations\ClienteDaoImplHibernate.cla
 com\mycompany\seminario\database\CommonQueries.class
 com\mycompany\seminario\models\AutomotorModel.class
 com\mycompany\seminario\hibernatedao\entityinterfaces\MarcaAutomotorDaoHIbernate.class
+com\mycompany\seminario\hibernatedao\implementations\InsumoDaoImplHibernate.class
 com\mycompany\seminario\daoimpl\TipoDocumentoDaoImpl.class
 com\mycompany\seminario\ConfirmarTurnoController.class
 com\mycompany\seminario\daoimpl\FichaMecanicaDaoImpl.class
+com\mycompany\seminario\hibernatedao\implementations\FichaMecanicaDaoImplHibernate.class
 com\mycompany\seminario\hibernate\models\FichaMecanica.class
+com\mycompany\seminario\hibernatedao\entityinterfaces\InsumoDaoHibernate.class
 com\mycompany\seminario\hibernate\models\Automotor.class
 com\mycompany\seminario\DatosClienteAccordionController.class
 com\mycompany\seminario\hibernatedao\generic\HibernateUtil.class
@@ -51,6 +54,7 @@ com\mycompany\seminario\commandpattern\JasperReportImpl.class
 com\mycompany\seminario\hibernate\models\Turno.class
 com\mycompany\seminario\hibernatedao\implementations\MarcaAutomotorDaoImplHibernate.class
 com\mycompany\seminario\hibernate\models\MarcaAutomotor.class
+com\mycompany\seminario\hibernatedao\entityinterfaces\TurnoDaoHibernate.class
 com\mycompany\seminario\controllers\AseguradoraController.class
 com\mycompany\seminario\TabInformesController.class
 com\mycompany\seminario\hibernatedao\implementations\TipoDocumentoDaoImplHibernate.class
@@ -60,6 +64,7 @@ com\mycompany\seminario\hibernate\models\Empleado.class
 com\mycompany\seminario\hibernate\models\Contacto.class
 com\mycompany\seminario\App.class
 com\mycompany\seminario\hibernate\models\RolEmpleado.class
+com\mycompany\seminario\hibernatedao\implementations\TurnoDaoImplHibernate.class
 com\mycompany\seminario\hibernatedao\entityinterfaces\TipoDocumentoDaoHibernate.class
 com\mycompany\seminario\EasyAlertMaker.class
 com\mycompany\seminario\hibernatedao\implementations\TallerDaoImplHibernate.class
@@ -80,6 +85,7 @@ com\mycompany\seminario\daoimpl\MarcaAutomotorDaoImpl.class
 com\mycompany\seminario\controllers\EspecialidadController.class
 com\mycompany\seminario\database\DBConnectionProvider.class
 com\mycompany\seminario\daoimpl\ModeloAutomotorDaoImpl.class
+com\mycompany\seminario\hibernatedao\entityinterfaces\FichaMecanicaDaoHibernate.class
 com\mycompany\seminario\models\TipoDocumentoModel.class
 com\mycompany\seminario\AgregarInsumoController.class
 com\mycompany\seminario\AsignarTurnoAccordionController.class

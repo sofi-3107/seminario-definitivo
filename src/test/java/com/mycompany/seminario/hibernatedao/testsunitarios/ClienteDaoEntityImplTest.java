@@ -80,7 +80,7 @@ public class ClienteDaoEntityImplTest {
 
     }
 
-    @Test
+    //@Test
     public void deleteClientes() {
         try {
             Cliente fetched1 = clienteDaoH.findByTipoAndNumDocumento(1, "34066052");
